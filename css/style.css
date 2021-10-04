@@ -26,6 +26,8 @@ li {
     text-decoration: none;
     font-size: 22px;
     text-align: center;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
 
 a {
@@ -43,7 +45,6 @@ a:active {
 .navbar {
     grid-column: 1/2;
     grid-row: 3/5;
-    padding: 10px;
     background: linear-gradient(to left, #1f1f1f,#121212);
 }
 
@@ -56,6 +57,10 @@ a:active {
     grid-column: 1/2;
     grid-row: 6/7;
     background: linear-gradient(to left, #1f1f1f,#121212);
+}
+
+.logo-list {
+    
 }
 
 .main-logo {
