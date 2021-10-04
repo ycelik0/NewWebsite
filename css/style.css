@@ -7,8 +7,6 @@ html,body {
     color: white;
 }
 
-
-
 .container-fluid {
     display: grid;
     grid-template-columns: 12vw 32.5vw 5.5vw 10vw 40vw;
@@ -21,13 +19,14 @@ ul {
 }
 
 li {
-    padding-top: 10px;
-    padding-bottom: 10px;
     text-decoration: none;
     font-size: 22px;
     text-align: center;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+}
+
+#social-link {
+    float: left;
+    padding-left: 10px;
 }
 
 a {
@@ -53,14 +52,20 @@ a:active {
     margin: 0;
 }
 
+#navitem {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .social-links {
     grid-column: 1/2;
     grid-row: 6/7;
     background: linear-gradient(to left, #1f1f1f,#121212);
 }
 
-.logo-list {
-    
+#social-img {
+    width: 31px;
+    height: 31px;
 }
 
 .main-logo {
