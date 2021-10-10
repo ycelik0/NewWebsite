@@ -1,3 +1,5 @@
+/* index.html */
+
 html,body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -17,11 +19,14 @@ ul {
 }
 
 li {
-    padding-top: 15px;
-    padding-bottom: 10px;
     text-decoration: none;
     font-size: 22px;
     text-align: center;
+}
+
+#social-link {
+    float: left;
+    padding-left: 10px;
 }
 
 a {
@@ -47,14 +52,20 @@ a:active {
     margin: 0;
 }
 
+#navitem {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .social-links {
     grid-column: 1/2;
     grid-row: 6/7;
     background: linear-gradient(to left, #1f1f1f,#121212);
 }
 
-.logo-list {
-    
+#social-img {
+    width: 31px;
+    height: 31px;
 }
 
 .main-logo {
@@ -73,4 +84,24 @@ a:active {
     grid-column: 1/2;
     grid-row: 5/6;
     background: linear-gradient(to left, #1f1f1f,#121212);
+}
+
+.aboutme-title {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 20px;
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, #66FCF1, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.aboutme-text {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

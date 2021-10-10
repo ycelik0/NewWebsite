@@ -106,6 +106,12 @@ a:active {
     grid-row: 4/5;
     padding-left: 10px;
     margin-bottom: 300px;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: darkgray;
+}
+
+.self-img {
+    grid-column: 5/6;
+    grid-row: 1/7;
 }

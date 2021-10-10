@@ -1,3 +1,5 @@
+/* index.html */
+
 html,body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -17,11 +19,14 @@ ul {
 }
 
 li {
-    padding-top: 15px;
-    padding-bottom: 10px;
     text-decoration: none;
     font-size: 22px;
     text-align: center;
+}
+
+#social-link {
+    float: left;
+    padding-left: 10px;
 }
 
 a {
@@ -47,14 +52,20 @@ a:active {
     margin: 0;
 }
 
+#navitem {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .social-links {
     grid-column: 1/2;
     grid-row: 6/7;
     background: linear-gradient(to left, #1f1f1f,#121212);
 }
 
-.logo-list {
-    
+#social-img {
+    width: 31px;
+    height: 31px;
 }
 
 .main-logo {
