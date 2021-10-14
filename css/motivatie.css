@@ -85,27 +85,3 @@ a:active {
     grid-row: 5/6;
     background: linear-gradient(to left, #1f1f1f,#121212);
 }
-
-.aboutme-title {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    font-size: 20px;
-    padding-left: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    background-image: linear-gradient(to right, #66FCF1, blue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-}
-
-.aboutme-text {
-    grid-column: 2/3;
-    grid-row: 3/4;
-    padding-left: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h2 {
-    font-size: 35px;
-}
